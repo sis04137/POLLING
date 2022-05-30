@@ -11,8 +11,8 @@ spring:
     hikari:
       maximum-pool-size: 30
       max-lifetime: 60000
-      jdbc-url: jdbc:h2:mem:testdb;MODE=MYSQL
-      username: sa
+      jdbc-url: 
+      username: 
       password:
       connection-timeout: 5000
       pool-name: Spring-HikariPool
